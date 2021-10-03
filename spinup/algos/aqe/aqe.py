@@ -518,7 +518,7 @@ if __name__ == '__main__':
     from spinup.utils.run_utils import setup_logger_kwargs
     logger_kwargs = setup_logger_kwargs(args.exp_name, args.seed)
 
-    redq(lambda: gym.make(args.env), hidden_sizes=[args.hid] * args.l,
+    aqe(lambda: gym.make(args.env), hidden_sizes=[args.hid] * args.l,
          gamma=args.gamma, seed=args.seed, epochs=args.epochs,
          steps_per_epoch=args.steps_per_epoch,
          logger_kwargs=logger_kwargs)
