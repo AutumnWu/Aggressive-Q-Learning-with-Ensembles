@@ -25,7 +25,7 @@ AQE: set `num_Qs = 10, q_target_mode = 'aqe', multihead = 2`
 
 
 
-You can run SAC/REDQ by changing the parameter `num_Qs` and `q_target_mode`
+You can also run SAC/REDQ by changing the parameter `num_Qs`, `q_target_mode` and `multihead`.
 
 
 Run experiments with pytorch SAC:
