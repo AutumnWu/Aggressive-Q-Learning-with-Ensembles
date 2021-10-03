@@ -1,4 +1,4 @@
-# Aggressive-Q-Learning-with-Assembles AQE Pytorch Implementation
+# Aggressive-Q-Learning-with-Ensembles AQE Pytorch Implementation
 AQE Pytorch Implementation, based on the OpenAI Spinup documentation and some of its code base. This AQE implementation is based on the OpenAI spinningup repo, and uses spinup as a dependency. 
 Currently anonymized for reviewing.
 
